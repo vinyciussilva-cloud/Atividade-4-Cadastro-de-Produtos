@@ -54,7 +54,7 @@ Mais do que "fazer funcionar", a solução foi construída seguindo boas prátic
 | 2 | Exibir formulário com os campos **Nome do Produto** e **Preço** | ✅ |
 | 3 | Validar em PHP que o **nome não está vazio** | ✅ |
 | 4 | Validar que o **preço foi informado** (campo obrigatório) | ✅ |
-| 5 | Validar que o **preço é um número maior que zero** | ⚠️ Cliente (HTML5) ✅ · Servidor: veja [Melhorias](#-melhorias-sugeridas) |
+| 5 | Validar que o **preço é um número maior que zero** | ✅ |
 | 6 | Dados válidos → inserir no banco e exibir **"Produto cadastrado com sucesso!"** | ✅ |
 | 7 | Dados inválidos → exibir mensagem de erro | ✅ |
 | 8 | Entregar apenas o arquivo `.php` | ✅ |
@@ -633,7 +633,5 @@ if ($nome_produto === '') {
 <div align="center">
 
 ### ⭐ Se este projeto te ajudou, deixe uma estrela no repositório!
-
-Feito com 💜, ☕ e muito `<?php ... ?>`
 
 </div>
